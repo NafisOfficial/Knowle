@@ -24,8 +24,9 @@ const Login = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn bg-[#93C5FD]">Login</button>
+                            <button className="btn btn-outline btn-warning mt-2">Sign in with google</button>
                         </div>
-                        <p>Don't have any account ? Please <Link to='/register' href="">register</Link></p>
+                        <p>Don't have any account ? Please <Link to='/register' href="" className='text-blue-500'>register</Link></p>
                     </div>
                 </div>
             </div>
